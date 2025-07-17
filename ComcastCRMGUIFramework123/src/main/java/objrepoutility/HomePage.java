@@ -44,6 +44,9 @@ public WebElement getProductsLink() {
 	@FindBy(linkText = "pro")
 	private WebElement proLink;
 	
+	@FindBy(linkText = "con")
+	private WebElement conLink;
+	
 }
 
 
