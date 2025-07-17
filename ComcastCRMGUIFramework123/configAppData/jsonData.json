@@ -1,0 +1,7 @@
+{
+  "browser"  :   "Firefox" ,
+ "url"  :   "http://localhost:8888/index.php?action=index&module=Home",
+   "userName" : "admin",
+  "password" : "admin",
+   "timeout"  : 20
+}
