@@ -34,6 +34,22 @@ private WebElement adminImg;
 @FindBy(linkText = "Sign Out")
 private WebElement SignoutLink;
 
+
+@FindBy(linkText = "Products")
+private WebElement productsLink;
+
+public WebElement getProductsLink() {
+	return productsLink;
+}
+
+
+
+public void setProductsLink(WebElement productsLink) {
+	this.productsLink = productsLink;
+}
+
+
+
 public WebElement getOrgLink(){
 	return orgLink;
 }
