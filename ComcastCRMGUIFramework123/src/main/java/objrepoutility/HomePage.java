@@ -40,6 +40,10 @@ private WebElement productsLink;
 
 public WebElement getProductsLink() {
 	return productsLink;
+	
+	@FindBy(linkText = "pro")
+	private WebElement proLink;
+	
 }
 
 
